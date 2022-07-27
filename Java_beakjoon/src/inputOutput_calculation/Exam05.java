@@ -10,7 +10,7 @@ public class Exam05 {
 		int A = sc.nextInt();
 		int B = sc.nextInt();
 		
-		System.out.println(A-B);
+		System.out.println(A+B);
 		
 		sc.close(); // 리소스 누수 (resource leaks) 때문에 닫아주는 것을 권장함.
 	}
